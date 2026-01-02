@@ -1,0 +1,10 @@
+{
+  "account": "your_email@example.com",
+  "server": "2b2t.org",
+  "proxy": "socks5://proxy.example.com:1080",
+  "release_channel": "java.1.21.4",
+  "auto_update": true,
+  "custom_jvm_args": "-Xmx512M",
+  "http_api_port": 8080,
+  "account_type": "deviceCode"
+}

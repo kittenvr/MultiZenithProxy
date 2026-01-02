@@ -1,0 +1,24 @@
+{
+  "rotation_enabled": true,
+  "rotation_strategy": "sequential",
+  "rotation_interval": 300,
+  "proxy_pool": [
+    "socks5://proxy1.example.com:1080",
+    "socks5://proxy2.example.com:1080",
+    "socks5://proxy3.example.com:1080",
+    "socks5://proxy4.example.com:1080",
+    "socks5://proxy5.example.com:1080"
+  ],
+  "instances": {
+    "account1": {
+      "account": "email1@example.com",
+      "server": "2b2t.org",
+      "account_type": "deviceCode"
+    },
+    "account2": {
+      "account": "email2@example.com",
+      "server": "2b2t.org",
+      "account_type": "deviceCode"
+    }
+  }
+}
